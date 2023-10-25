@@ -1,0 +1,22 @@
+body{
+    background-color: burlywood;
+}
+.red{
+    color: rgb(227, 13, 13);
+}
+#we{
+    color: chartreuse;
+}
+h3{
+    color: black;
+}
+a:visited{
+    color: orange;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: blue;
+}
+

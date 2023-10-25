@@ -1,0 +1,19 @@
+.di{
+    background-color: aqua;
+}
+.box{
+    color: red;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid blue;
+    height: 200px;
+    box-sizing: border-box;
+}
+.box1{
+    color: orange;
+        padding: 10px;
+    margin: 30px;
+    border: 2px solid orangered;
+    height: 200px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,25 @@
+h1{
+    background-color: yellow;
+    color: red;
+}
+ul{
+    color: yellow;
+}
+ol{
+    color: chartreuse;
+}
+
+
+p{
+    background-color: aqua;
+    color: yellow;
+}
+body{
+   background-color: black;
+}
+label{
+    color: greenyellow;
+}
+input{
+    background-color: pink;
+}

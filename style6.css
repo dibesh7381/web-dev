@@ -1,0 +1,18 @@
+option{
+    background-color:rgb(241, 146, 241);
+}
+body{
+    background-color: rgb(54, 54, 210);
+}
+input{
+    background-color:rgb(240, 140, 9);
+}
+label{
+    color: rgb(250, 118, 10);
+}
+select{
+    background-color: orangered;
+}
+h1{
+    background-color: rgb(245, 110, 13);
+}

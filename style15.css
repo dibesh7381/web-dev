@@ -1,0 +1,42 @@
+ol{
+    text-shadow: 4px 4px 8px rgb(244, 7, 244);
+}
+h3{
+    color: rgb(5, 251, 169);
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+h2{
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+h1{
+    color: rgb(150, 247, 4);
+    text-decoration: underline;
+    
+    text-decoration-color: black;
+    text-decoration-style: dashed;
+    text-align-last: left;
+}
+ul{
+    color: #5006F9;
+    text-shadow: 2px 5px 3px rgb(252, 13, 53);
+
+
+}
+
+    
+    
+
+p{
+    color: #06F996 ;
+    text-decoration: underline;
+    text-decoration-color: black;
+    
+}
+h4{
+    color: blue;
+    text-shadow: 2px 5px 3px orangered;
+    text-decoration: underline;
+}
