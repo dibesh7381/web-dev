@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        ul{
+            display: flex;
+            gap: 50px;
+            font-size: 50px;
+        }
+        li{
+            list-style: none;
+        }
+        
+        @media only screen and (max-width:430px){
+         div ul{
+            background-color: aqua;
+            font-size: 50px;
+            display: flex;
+            flex-direction: column;
+         }
+        }
+    </style>
+    <div>
+       <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        </ul>
+    </div>
+</body>
+</html>
