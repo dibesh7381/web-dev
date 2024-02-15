@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(198, 204, 209);
+    position: fixed;
+}
+.a{
+    border: 1px solid black;
+    text-align: center;
+    height: 40vh;
+    background-color: whitesmoke;
+    width: 20vw;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: fixed;
+    top: 200px;
+    left: 600px;
+    }
+.b{
+    position: relative;
+    bottom: 20px;
+    color: red;
+}
+.c{
+    position: relative;
+    bottom: 10px;
+}
+.d{
+    position: relative;
+    bottom: 20px;
+}
+.e{
+    color:rgb(95, 195, 228);
+}
+button{
+    position: relative;
+    top: 50px;
+    left: 59px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(28, 188, 241);
+    color: white;
+}
+h5{
+    position: relative;
+    bottom: 20px;
+}

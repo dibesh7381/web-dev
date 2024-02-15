@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.a li{
+    list-style: none;
+}
+ li input{
+    height: 30px;
+    width: 300px;
+  outline: none;
+ border-color: aqua;
+    }
+.b a{
+    text-decoration: none;
+}
+.n{
+    height: 35px;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+.n:focus{
+border:2px solid blue;
+}
+input:focus{
+   border: 2px solid blue;
+}
+
+
+
+

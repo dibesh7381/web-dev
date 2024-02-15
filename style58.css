@@ -1,0 +1,13 @@
+.container{
+    background-color: beige;
+    width: 50vw;
+    height: 50vh;
+
+}
+.box{
+    background-color: aqua;
+    width: 5vw;
+    height: 5vh;
+    transform: translateX(10vw) translateY(10vh);
+    transition: all 3s ease-in-out 1s; 
+}

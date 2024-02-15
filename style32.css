@@ -1,7 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .op{
     border: 2px solid black;
     width: 19vw;
-    height: 65vh;
+    height: 70vh;
     padding: 5px;
     
     margin: 10px;
@@ -11,6 +15,8 @@
 }
 h1{
     text-align: left;
+    position: relative;
+    top: 20px;
 }
 img {
     border: 2px solid black;
@@ -27,6 +33,11 @@ img {
     padding-right: 5px;
     padding-left: 5px;
     }
+    p{
+        position: relative;
+        text-align: center;
+        top: 30px;
+    }
     .re{
         border: 1px solid black;
         border-radius:29px ;
@@ -35,13 +46,75 @@ img {
         padding-top: 10px;
         padding-bottom: 10px;
         position: relative;
-        top: 10px;
+        top: 60px;
+        background-color: aqua;
+        color: red;
+        border: none;
         
         
         
     }
     .yo{
-        height: 45px;
-        width: 45px;
+        height: 85vh;
+        width: 25vw;
         border: 2px solid  black;
+        text-align: center;
+        position: relative;
+        bottom:540px;
+        left: 400px;
+        padding-right: 11px; 
+        padding-left: 8px;
+        padding-top: 5px;
+        border-radius: 20px;
     }
+    .o{
+        height: 30vh;
+        width: 25vw;
+        border: 2px soild black;
+        border-radius: 20px;
+        text-align: center;
+       
+    }
+    .br{
+        border: 1px solid black;
+        border-radius: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        position: relative;
+        top: 10px;
+        right: 80px;
+        margin: 5px;
+    } 
+    .th{
+        text-align: center;
+        border: 3px solid blue;
+        border-radius: 50px;
+        position: relative;
+        top: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: oblique;
+
+    }
+    .p{
+        text-align: center;
+        position: relative;
+        top: 40px;
+    }
+    .d{
+        position: relative;
+        top: 70px;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        background-color: blue;
+        color: yellow;
+        border: none;
+        
+        
+    }
+        
+
+    

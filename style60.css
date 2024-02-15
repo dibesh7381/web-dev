@@ -1,0 +1,76 @@
+.container{
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(0,102,102);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.box{
+   height: 100px;
+   width: 200px;
+   width: px;
+    background-color: red;
+    /* animation-name: a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.81, 0.47, 0.1, 0.87);
+    animation-delay: 1s;
+    animation-direction: reverse; */
+    animation:a 0.1s infinite ease  reverse;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+@keyframes a {
+    from{
+       
+
+
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+@keyframes b {
+    0%{
+        transform: rotate(300deg);
+    }
+    20%{
+        transform: rotate(200deg);
+    }
+    50%{
+        transform: rotate(400deg);
+    }
+    80%{
+        transform: rotate(500deg);
+    }
+    100%{
+        transform: rotate(550deg);
+    }
+
+}
+.w{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 2px solid black;
+    margin-top: 20px;
+    animation: a 0.3s cubic-bezier(0.215, 0.610, 0.355, 1)  infinite;
+    background-color: brown;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.q{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+      

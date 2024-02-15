@@ -1,0 +1,151 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    background-color: aliceblue;
+}
+header img{
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+ul li{
+    list-style: none;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+  
+}
+li a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(223, 223, 109);
+    text-underline-offset: 7px;
+}
+.a button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border: none;
+}
+.b{
+    background-color: blue;
+    color: white;
+}
+.c{
+    background-color:#E3DD13;
+    color: white;
+}
+.b:hover{
+    background-color: #E3DD13;
+    color: white;
+}
+.c:hover{
+    background-color: blue;
+    color: white;
+}
+main{
+    background-image: url(odbus2.jpg);
+    width: 100%;
+    height: 80vh;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.e{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.f{
+    margin-top: 50px;
+   display: flex;
+ flex-wrap: wrap;
+  border: 1px solid black;
+height: 50px;
+width: 70vw;
+border: none;
+ 
+}
+
+.f input{
+    height: 40px;
+    width: 15vw;
+  outline: none;
+  border-radius: 20px;
+  padding: 0px 20px;
+}
+.h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input:focus{
+    border: 2px solid blue;
+}
+.j{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+    color: white;
+    font-family:'Poppins', sans-serif ;
+}
+.se{
+    border-radius: 8px;
+    outline: none;
+    padding: 15px 50px;
+    margin-right: 20px;
+    font-size: 15px;
+    background-color: #E3DD13;
+    font-family: 'Poppins', sans-serif ;
+    cursor: pointer;
+}
+.box{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+   border: none;
+   align-items: center;
+}
+.box1{
+    height: 50vh;
+    border: 1px solid black;
+background-color: whitesmoke;
+}
+h1{
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.vi{
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+.op img{
+    margin-left: 250px;
+}

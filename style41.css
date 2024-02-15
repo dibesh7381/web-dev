@@ -1,0 +1,32 @@
+/* .box{
+    color: blue;
+    border: 2px solid black; */
+
+
+[data-color="primary"]{
+    background-color:green ;
+    color: red;
+}
+.box::first-letter{
+    font-size: 50px;
+}
+.box::first-line{
+    background-color: yellow;
+}
+.boxes::after{
+    content: "i am dibesh";
+}
+.boxes::before{
+    content: "My Dog Name Is Sheru";
+    border: 2px solid black;
+    margin: 10px;
+    }
+
+    input::placeholder{
+        color: red;
+        font-size:12px;
+        text-align: start;
+    }
+    .box:nth-last-child(2){
+        background-color: red;
+    }

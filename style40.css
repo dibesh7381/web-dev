@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    padding: 20px;
+    text-align: center; 
+    }
+ul{
+    display: flex;
+}
+nav{
+    border: 1px solid black;
+    position: fixed;
+    width: 100vw;
+    
+    
+}
+.a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+   position: relative;
+   left: 120px; 
+   bottom:3px;
+   
+}
+.c{
+    border: 1px solid black;
+    position: fixed;
+    top: 90px;
+    width: 100vw;
+    padding: 10px;
+    border: none;
+}
+.b{
+    border: 1px solid black;
+    position: fixed;
+    top: 170px;
+    border: none;
+}
+.d{
+    border: 1px solid black;
+    width:40vw;
+    background-image:url(https://img.freepik.com/free-photo/dumbbells-floor-gym-ai-generative_123827-23744.jpg?size=626&ext=jpg&ga=GA1.2.386372595.1697587200&semt=ais);
+    text-align: center;
+    position: relative;
+    left: 100px;
+      
+}
+.e{
+    border: 1px solid black;
+    position: fixed;
+    top: 300px;
+    width: 100vw;
+    padding: 10px;
+    border: none;
+    
+}
+.f{
+    border: 1px solid black;
+    position: fixed;
+    top: 380px;
+    border: none;
+}
+.b::first-letter{
+    font-size: 50px;
+    color: aqua;
+}

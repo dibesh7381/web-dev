@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+nav{
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(17, 19, 20);
+    display: flex;
+    align-items: center;
+   
+   }
+nav ul{
+ display: flex;
+flex-direction: column;
+ gap: 40px;
+justify-content: center;
+
+}
+ul li{
+  display: flex;
+  align-items: center;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+header{
+    display: grid;
+    grid-template-columns: 100px 100%;
+    grid-template-rows: auto;
+    position: fixed;
+}
+.box{
+    border: 1px solid black;
+  background-color:rgb(17, 19, 20);
+overflow: auto;
+    height: 100vh;
+ border: none;
+}
+ul li span{
+    margin-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+.we:hover{
+    padding: 30px 0px;
+}
+input{
+    width: 80vw;
+    height: 50px;
+    outline: none;
+    padding: 0px 60px;
+    font-size: 18px;
+    background-color:#333434;
+    color: white;
+    border-radius: 10px;
+}
+.se{
+    border: 1px solid black;
+    height: 100px;
+   display: flex;
+   align-items: center;
+}
+input::placeholder{
+    font-size: 18px;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px ;
+    grid-template-rows: 300px 300px ;
+  
+   margin-top: 20px;
+  column-gap: 10px;
+  row-gap: 30px;
+}
+.item{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.footer{
+    width: auto;
+    height: auto;
+    border: 1px solid white;
+    border: none;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 300px;
+}
+.yu{
+    border: 1px solid white;
+    color: white;
+  border: none;
+}
+.po{
+    font-size: 20px;
+    color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 10px;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.co{
+    font-size: 20px;
+    font-weight: 700;
+}
+.al{
+    margin-top: 50px;
+}
+.en{
+    margin-top: 20px;
+    margin-left: 23px;
+}
+.nh{
+margin-top: 20px;
+font-size: 15px;
+}
+.ui{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.fg{
+    margin-top: 60px;
+}
+.fg img{
+    width: 150px;
+}
+.fg2{
+    padding: 0px 20px;
+}
+.fg3{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.yu4{
+    text-align: center;
+}
+.yu4 ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

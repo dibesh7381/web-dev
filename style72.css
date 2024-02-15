@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+   
+}
+input{
+    padding: 15px 70px;
+    border-radius: 40px;
+    outline: none;
+    background-color: transparent;
+   color: white;
+   
+}
+input:focus{
+    border-image: linear-gradient( to right,red,green) 1;
+}
+.x{
+    display: flex;
+    align-items: center;
+   cursor: pointer;
+}
+.z{
+    cursor: pointer;
+} 
+
+input::placeholder{
+    font-size: 17px;
+    color: white;
+}
+.s{
+    padding: 0px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.l{
+    display: grid;
+grid-template-columns: 200px 200px 200px 200px 200px 200px;
+grid-template-rows: 200px 200px;
+margin-top:30px ;
+column-gap: 20px;
+row-gap: 70px;
+
+}
+.item{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    cursor: pointer;
+}
+main{
+    border: 1px solid black;
+    border: none;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+   
+}
+.item1{
+width: 199px;
+height: 199px;
+border-radius: 20px;
+background-image: url("https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_sonymusic/music/update/1561818301014/srch_sonymusic_A10328E00000464031.jpg");
+background-size: cover;
+}
+.item1 audio{
+    height: 199px;
+    opacity: 0.1;
+}
+.item2 img{
+    width: 199px;
+height: 199px;
+object-fit: cover;
+border-radius: 20px;
+}
+.item3 img{
+    width: 199px;
+height: 199px;
+object-fit: cover;
+border-radius: 20px;
+}
+.item4 img{
+    width: 199px;
+    height: 199px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.item p{
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: white;
+}
+
+
+.op nav ul{
+    display: flex;
+   justify-content:center;
+  align-items: center;
+  height: 70px;
+  background-color: gray;
+  width: 100vw;
+  gap: 30px;
+  border: 1px solid white;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family:'Poppins', sans-serif ;
+}
+ul li{
+    list-style: none;
+}
+li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color:white;
+}

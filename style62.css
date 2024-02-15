@@ -1,0 +1,60 @@
+.container{
+    display: grid;
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 30px 30px;
+    gap: 20px;
+}
+.container a{
+    text-decoration:none;
+    color: white;
+     text-align: center;
+   
+}
+button{
+    padding: 4px 12px;
+    background-color:rgba(255, 255, 255, 0.886);
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: black;
+}
+header{
+display: flex;
+justify-content: center;
+margin-top: 100px;
+   }
+   .navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+   }
+   ul li{
+    list-style: none;
+    padding: 0px 20px;
+
+   }
+   ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 20px;
+    border-radius: 20px;
+   }
+   main img{
+    width: 164px;
+    margin-right: auto;
+   }
+   main{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+   }
+   .j img{
+    width: 50px;
+   }
+   li a:hover {
+    background-color: pink;
+   }
+   

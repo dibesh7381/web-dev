@@ -1,0 +1,87 @@
+
+
+.lake{
+    border: 2px solid black;
+    height: 67vh;
+    width: 20vw;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--color);
+}
+.o{
+    width: 290px;
+    border: 2px solid black;
+    border-radius: 10px;
+       
+}
+.l{
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    right: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 20px;
+} 
+h1{
+    text-align: start;
+    position: relative;
+    top: 20px;
+}
+P{
+    text-align: center;
+    padding: 3PX;
+}
+.g{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    background-color:var(--seccolor);
+    --color:rgb(5, 246, 5);
+    color: var(--color);
+   border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    
+}
+:root{
+    --color:rgb(190, 227, 239);
+    --seccolor:red;
+}
+.a{
+    border: 2px solid black;
+    height: 60vh;
+    width: 19vw;
+    position: relative;
+    left: 500px;
+    bottom: 490px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    background-image: url(https://img.freepik.com/premium-vector/halloween-theme-background_228089-27.jpg);
+    opacity: 0.5px;
+.h{
+    width: 280px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.t{
+    text-align: center;
+}
+.u{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    right: 50px;
+    top: 10px;
+}
+
+
+

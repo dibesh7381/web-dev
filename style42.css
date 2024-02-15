@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+    
+}
+nav ul{
+    display: flex;
+    border: 1px solid black;
+   
+   
+ background-color: pink;
+    
+}
+.d{
+    position: sticky;
+   top: 0px;
+   
+}
+
+
+body{
+    background-color: green;
+}
+.a{
+    border: 1px solid black;
+    width: 40vw;
+    position: relative;
+    top: 20px;
+    left: 100px;
+    height: 80vh;
+    background-color: aqua;
+}
+.b{
+    border: 1px solid black;
+    width: 40vw;
+    position: relative;
+    bottom: 576px;
+    left: 800px;
+    height: 80vh;
+    background-color: red;
+}
+.c{
+    border: 1px solid black;
+    border-radius: 40px;
+    position: relative;
+    left: 200px;
+    bottom: 400px;
+    width: 70vw;
+}
+p{
+    text-align: center;
+    padding: 50px;
+    font-size: 70px;
+    
+} 
+footer{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: orange;
+    text-align: center;
+}

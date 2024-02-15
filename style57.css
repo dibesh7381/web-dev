@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/870/756/865/4k-dark-blue-lines-grid-lines-wallpaper-preview.jpg);
+    background-size: cover;
+    
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: aqua;
+    position: sticky;
+    top: 1px;
+}
+.navbar ul{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    order: 1;
+}
+    
+li{
+    list-style: none;
+    padding: 0px 20px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 20px;
+    border-radius: 20px;
+    transition: all 2s ease 0s;
+}
+a:hover{
+    background-color: red;
+    color: white;
+}
+.logo img{
+width: 70px;
+border-radius: 60px;
+
+}
+.logo{
+    margin-left: auto;
+    order: 3;
+}
+.x{
+    order: 2;
+
+}
+button{
+    padding: 3px 20px;
+    border-radius: 20px;
+    transition: all 3s ease 1s;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 50px;
+   cursor: pointer;
+}
+button:hover{
+    background-color: red;
+    color: white;
+    transition: all 1.5s ease 1s;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.q{
+    margin-right: 20px;
+}
+.w{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+.content img{
+    width: 300px;
+    box-shadow: 3px 2px 2px palevioletred;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center;
+   
+
+}
+.s{
+    margin-left: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+
+
+

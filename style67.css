@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(net2.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px 100vw);
+}
+.box{
+   background-color: black;
+   height: 100vh;
+  opacity: 0.80;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+ 
+   }
+nav{
+  display: flex;
+  border: 2px solid black;
+  justify-content:space-between;
+  align-items: center;
+  height: 97px;
+  width: 80vw;
+margin: auto;
+}
+nav img{
+ width: 200px;
+ position: relative;
+ z-index: 90;
+}
+nav button{
+   position: relative;
+   padding: 5px 10px;
+   z-index: 10;
+   cursor: pointer;
+}
+.n{
+    color: white;
+    border: 2px solid white;
+   
+    margin-top: 150px;
+ text-align: center;
+  position: relative;
+  z-index: 20;
+}
+.q{
+    font-size: 50px;
+    font-weight: 900;
+}
+.x{
+    font-size: 30px;
+margin-top: 20px;
+}
+.s{
+    font-size: 25px;
+    margin-top: 25px;
+}
+.search input{
+    outline: none;
+background-color: black;
+color: white;
+padding: 0px 20px;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+}
+input:focus{
+    outline: 2px solid white;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.f{
+    padding: 0px 5px;
+  
+
+}
+.f button{
+  border: none;
+   border-radius: 5px;
+ cursor: pointer;
+   background-color: red;
+   color: white;
+   font-size: 20px;
+   padding: 14px 20px;
+}
